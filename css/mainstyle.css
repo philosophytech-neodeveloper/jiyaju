@@ -1,0 +1,43 @@
+@import "./fontsStyle.css";
+:root {
+    --App-dark-color: black;
+    --App-primary-color: green;
+    --App-light-color: white;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    line-height: 1.1rem;
+}
+
+body {
+    font-size: 16px;
+    width: 100%;
+    height: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--dark-color-primary);
+}
+
+a:not(href) {
+    text-decoration: none;
+    color: var(--dark-color-primary);
+    cursor: pointer;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
